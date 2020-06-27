@@ -1,8 +1,12 @@
+
+window.onload = function() {
+    getResults('Guatemala');
+  };
+
 const api = {
     key: "4f0c21340dcd126d4c697a12a2f47c09",
     base: "https://api.openweathermap.org/data/2.5/"
   }
-  
   const searchbox = document.querySelector('.search-box');
   searchbox.addEventListener('keypress', setQuery);
   
