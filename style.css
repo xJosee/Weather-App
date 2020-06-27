@@ -6,9 +6,9 @@
   
   body {
     font-family: 'montserrat', sans-serif;
-    background-image: url('bg.jpg');
-    background-size: cover;
-    background-position: top center;
+    background-image: url('https://i.pinimg.com/564x/2d/25/75/2d2575ef486559ed5ad60655ef152c84.jpg');
+    /*background-size: cover;
+    background-position: top center;*/
   }
   
   .app-wrap {
@@ -33,16 +33,15 @@
     outline: none;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 0px 16px 0px 16px;
-    border-bottom: 3px solid #DF8E00;
-    
-    color: #313131;
+    border-bottom: 3px solid #0098df;
+    color: #fff;
     font-size: 20px;
     font-weight: 300;
     transition: 0.2s ease-out;
   }
   
   header input:focus {
-    border-bottom: 3px solid #ffa200;
+    border-bottom: 3px solid #02acfa;
     background-color: rgba(255, 255, 255, 0.6);
   }
   
@@ -57,7 +56,7 @@
   .location{
     padding: 20px;
     
-    border-bottom: 3px solid #DF8E00;
+    border-bottom: 3px solid #0098df;
   }
   .location .city {
     color: #FFF;
